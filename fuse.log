@@ -1,0 +1,51 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/tb_SingleCycleProcessor_isim_beh.exe -prj C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/tb_SingleCycleProcessor_beh.prj work.tb_SingleCycleProcessor work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/SignExtend.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/ProgramCounter.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/PCSource.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/PCPlus1.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/PCJump.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/PCBranchAdder.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/Mux.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/finalResult.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/DataMemory.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/ALUDecoder.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/SingleCycleProcessor.v" into library work
+Analyzing Verilog file "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/tb_SingleCycleProcessor.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/SingleCycleProcessor.v" Line 54: Size mismatch in connection of port <SrcA>. Formal port size is 5-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/SingleCycleProcessor.v" Line 56: Size mismatch in connection of port <WD>. Formal port size is 5-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module ProgramCounter
+Compiling module InstructionMemory
+Compiling module ControlUnit
+Compiling module ALUDecoder
+Compiling module RegisterFile
+Compiling module PCJump
+Compiling module SignExtend
+Compiling module PCPlus1Adder
+Compiling module PCBranchAdder
+Compiling module Mux
+Compiling module ALU
+Compiling module PCSource
+Compiling module DataMemory
+Compiling module Mux(width0=5,width1=5)
+Compiling module finalResult
+Compiling module SingleCylceProcessor
+Compiling module tb_SingleCycleProcessor
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\tb_SingleCycleProcessor_isim_beh.exe.sim\libPortability.dll".
+Compiled 18 Verilog Units
+Built simulation executable C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/tb_SingleCycleProcessor_isim_beh.exe
+Fuse Memory Usage: 28948 KB
+Fuse CPU Usage: 890 ms

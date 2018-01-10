@@ -1,0 +1,8 @@
+ISim log file
+Running: C:\Users\Steven\Documents\SDSU\SDSU 2016-2017\Spring 2017\COMPE475\Single Cycle Processor\HW2\tb_SingleCycleProcessor_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Steven/Documents/SDSU/SDSU 2016-2017/Spring 2017/COMPE475/Single Cycle Processor/HW2/tb_SingleCycleProcessor_isim_beh.wdb 
+Time resolution is 1 fs
+# onerror resume
+# wave add /
+No active Database
+# run 1000 ns
+Unable to execute live simulation command.
